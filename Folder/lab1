@@ -1,1 +1,11 @@
+a=[10,89,9,56,4,80,8]
+maximum=a[0]
+minimum=a[0]
+for i in range(0,len(a)):
+    if(maximum<a[i]):
+        maximum=a[i]
+    elif(minimum>a[i]):
+        minimum=a[i]
+print(maximum)
+print(minimum)
 
